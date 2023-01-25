@@ -26,7 +26,7 @@ export const SliderProducts = [{
     img: img2
 },
 {
-    name: 'NATURE',
+    name: 'NATUREFOUNDATION',
     detail: 'Super Skin Care',
     price: '25',
     img: img3
@@ -47,35 +47,35 @@ export const ProductsData = [{
     type: 'skin care',
 },
 {
-    name: 'NATURE',
+    name: 'NATUREFOUNDATION',
     detail: 'Super Skin Care',
     price: '25',
     img: img3,
     type: 'skin care',
 },
 {
-    name: 'Foundation',
+    name: 'FOUNDATION',
     detail: 'Super Skin Care',
     price: '25',
     img: img4,
     type: 'foundation',
 },
 {
-    name: 'CONDITIONER',
+    name: 'CONDICIONADOR',
     detail: 'Super Skin Care',
     price: '30',
     img: img5,
     type: 'conditioner',
 },
 {
-    name: 'NATURE',
+    name: 'NATUREFOUNDATION',
     detail: 'Super Skin Care',
     price: '25',
     img: img6,
     type: 'skin care',
 },
 {
-    name: "CONDITIONER",
+    name: "CONDICIONADOR",
     details: 'Best Conditioner',
     price: '30',
     img: img7,
@@ -83,21 +83,21 @@ export const ProductsData = [{
 }
 ,
 {
-    name: "CONDITIONER",
+    name: "CONDICIONADOR",
     details: 'Best Conditioner',
     price: '30',
     img: img8,
     type: 'conditioner'
 },
 {
-    name: "CONDITIONER",
+    name: "CONDICIONADOR",
     details: 'Best Conditioner',
     price: '30',
     img: img9,
     type: 'conditioner'
 },
 {
-    name: "CONDITIONER",
+    name: "CONDICIONADOR",
     details: 'Best Conditioner',
     price: '30',
     img: img10,
