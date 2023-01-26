@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div className={css.text2}>
           <span>Coleções do Momento</span>
-          <span>Experimente vivenciar a vida de forma mais leve e confortáve.l</span>
+          <span>Experimente vivenciar a vida de forma mais leve e confortável</span>
         </div>
 
       </div>
