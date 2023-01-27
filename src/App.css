@@ -1,6 +1,6 @@
 :root{
   --black: #343434;
-  --bg: #F8E367;
+  --bg: #f8b967;
   --shadow1: 0px 13px 48px -1px rgba(0, 0, 0, 0.25);
   --shadow2:  0px 13px 46px rgba(0, 0, 0, 0.13);
   --pink: #FE956F;
@@ -10,8 +10,8 @@
   flex-direction: column;
 }
 ::-webkit-scrollbar{
-  height: 12px;
-  width: 12px;
+  height: 8px;
+  width: 8px;
   }
   
   ::-webkit-scrollbar-track{
@@ -20,7 +20,7 @@
   }
   
   ::-webkit-scrollbar-thumb{
-  background: skyblue;
+  background: rgb(75, 79, 80);
   border-radius: 1ex;
   }
 
