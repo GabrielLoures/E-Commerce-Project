@@ -26,7 +26,7 @@ export const SliderProducts = [{
     img: img2
 },
 {
-    name: 'NATUREFOUNDATION',
+    name: 'NATURE',
     detail: 'Super Skin Care',
     price: '25',
     img: img3
@@ -47,14 +47,14 @@ export const ProductsData = [{
     type: 'skin care',
 },
 {
-    name: 'NATUREFOUNDATION',
+    name: 'NATURE',
     detail: 'Super Skin Care',
     price: '25',
     img: img3,
     type: 'skin care',
 },
 {
-    name: 'FOUNDATION',
+    name: 'MAQUIAGEM',
     detail: 'Super Skin Care',
     price: '25',
     img: img4,
@@ -68,7 +68,7 @@ export const ProductsData = [{
     type: 'conditioner',
 },
 {
-    name: 'NATUREFOUNDATION',
+    name: 'NATURE',
     detail: 'Super Skin Care',
     price: '25',
     img: img6,
@@ -76,7 +76,7 @@ export const ProductsData = [{
 },
 {
     name: "CONDICIONADOR",
-    details: 'Best Conditioner',
+    detail: 'Best Conditioner',
     price: '30',
     img: img7,
     type: 'conditioner'
@@ -84,49 +84,49 @@ export const ProductsData = [{
 ,
 {
     name: "CONDICIONADOR",
-    details: 'Best Conditioner',
+    detail: 'Best Conditioner',
     price: '30',
     img: img8,
     type: 'conditioner'
 },
 {
     name: "CONDICIONADOR",
-    details: 'Best Conditioner',
+    detail: 'Best Conditioner',
     price: '30',
     img: img9,
     type: 'conditioner'
 },
 {
     name: "CONDICIONADOR",
-    details: 'Best Conditioner',
+    detail: 'Best Conditioner',
     price: '30',
     img: img10,
     type: 'conditioner'
 },
 {
-    name: "FOUNDATION",
-    details: 'Nourish your skin',
+    name: "MAQUIAGEM",
+    detail: 'Nourish your skin',
     price: '12',
     img: img11,
     type: 'foundation'
 },
 {
-    name: "FOUNDATION",
-    details: 'Nourish your skin',
+    name: "MAQUIAGEM",
+    detail: 'Nourish your skin',
     price: '12',
     img: img12,
     type: 'foundation'
 },
 {
-    name: "FOUNDATION",
-    details: 'Nourish your skin',
+    name: "MAQUIAGEM",
+    detail: 'Nourish your skin',
     price: '12',
     img: img13,
     type: 'foundation'
 },
 {
-    name: "FOUNDATION",
-    details: 'Nourish your skin',
+    name: "MAQUIAGEM",
+    detail: 'Nourish your skin',
     price: '12',
     img: img14,
     type: 'foundation'
