@@ -6,7 +6,12 @@ import HeroImage from '../../assets/hero.png'
 import {RiShoppingBagFill} from 'react-icons/ri'
 import {BsArrowRight} from 'react-icons/bs'
 
+import { motion } from 'framer-motion'
+
 const Hero = () => {
+
+  const transition = {duration: 3, type: "spring"}
+
   return (
     <div className={css.container}>
 
@@ -25,10 +30,32 @@ const Hero = () => {
       {/* Imagem do Meio (círculo azul com imagem sobreposta junto ao carrinho de compras e o link de cadastro) */}
       <div className={css.wrapper}>
 
-        <div className={css.blueCircle}></div>
-        <img src={HeroImage} alt="Imagem de uma mulher com chapéu" width={600}/>
+        {/* Círculo Azul */}
+        <motion.div 
+          initial={{bottom: "2rem"}}
+          whileInView={{bottom: "0rem"}}
+          transition={transition}
+          className={css.blueCircle}
+        ></motion.div>
 
-        <div className={css.cart2}>
+        {/* Hero Image */}
+        <motion.img
+          transition={transition}
+          initial={{bottom: "-1rem"}}
+          whileInView={{bottom: "0rem"}} 
+          src={HeroImage} 
+          alt="Imagem de uma mulher com chapéu"
+          width={600}
+        />
+
+        {/* Cart Div Animating */}
+        <motion.div
+          transition={transition}
+          initial={{right: "4%"}}
+          whileInView={{right: "2%"}} 
+          className={css.cart2}
+        >
+
           <RiShoppingBagFill/>
 
           <div className={css.signup}>
@@ -39,7 +66,7 @@ const Hero = () => {
             </div>
           </div>
 
-        </div>
+        </motion.div>
 
       </div>
 
