@@ -42,6 +42,29 @@
   width: 30rem;
 }
 
+@media screen and (max-width: 856px) {
+
+  .Virtual {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+
+  .left {
+    margin-bottom: 2rem;
+  }
+
+  .left img {
+    bottom: -2rem;
+    right: 5rem;
+  }
+}
+
 
 
 
