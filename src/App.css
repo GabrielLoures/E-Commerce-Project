@@ -28,3 +28,9 @@
     text-decoration: none;
     color: inherit
   }
+
+  @media screen and (max-width: 856px) {
+    ::-webkit-scrollbar{
+      display: none;
+    }
+  }
