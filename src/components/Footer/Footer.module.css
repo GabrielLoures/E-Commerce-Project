@@ -77,3 +77,31 @@
   font-size: 0.7rem;
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 860px) {
+
+  .cFooter {
+    justify-content: space-between;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 1.7rem;
+    gap: 2rem;
+  }
+  
+  .logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .cFooter {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .logo {
+    display: none;
+  }
+}
